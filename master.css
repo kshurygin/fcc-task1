@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans+Narrow:400,700|PT+Sans:400,400i,700,700i');
+
+body {
+  font-family: "PT Sans", sans-serif;
+  padding-top: 50px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header,
+footer {
+  background-color: #33373f;
+  color: #fff;
+
+}
+
+header {
+  padding-top: 20px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #5c6a7e;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #009CFF;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #bbb;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  border-color: #009CFF;
+  background-color: #5c6a7e;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #5c6a7e;
+
+}
+
+.disclamer {
+  text-align: center;
+}
+
+
+#s2 {
+  background-color: #C7CAD4;
+}
+
+section#s2 {
+  width: 100%;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+footer p:first-of-type {
+  margin-top: 10px;
+}
+
+header a,
+footer a {
+  color: #009CFF;
+}
+
+header a:hover,
+footer a:hover {
+  color: #bbb;
+  font-weight: bold;
+}
