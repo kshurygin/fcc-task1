@@ -74,6 +74,10 @@ header {
   padding-bottom: 20px;
 }
 
+#s1 p {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
 #s1 img {
   width: 240px;
   border: 1px solid #fff;
@@ -149,7 +153,7 @@ header {
 }
 
 #s3 {
-  background: url("https://raw.githubusercontent.com/kshurygin/fcc-task1/master/back4-tenerife.JPG") no-repeat top fixed;
+  background: url("../img/back4-tenerife.jpg") no-repeat top fixed;
   background-size: cover;
   padding-bottom: 20px;
   color: #fff;
