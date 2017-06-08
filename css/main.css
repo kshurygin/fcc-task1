@@ -1,0 +1,46 @@
+body {
+  padding-top: 20px;
+}
+
+/*Navbar HAMBURGER BUTTON animation*/
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.01s;
+}
+
+.navbar-toggle span.bar-1 {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span.bar-2 {
+    opacity: 0;
+}
+
+.navbar-toggle span.bar-3 {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span.bar-1,
+.navbar-toggle.collapsed span.bar-3 {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span.bar-2 {
+    opacity: 1;
+}
+
+/*End of navbar HAMBURGER BUTTON animation*/
